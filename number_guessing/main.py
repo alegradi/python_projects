@@ -23,7 +23,7 @@ else:
     guess_remaining = 0
 
 def compare_numbers(target_num, guess):
-    """Function to compare the guess to the target number."""
+    """Function to compare the guess to the target number. 2 arguments"""
     global game_over
     if target_num < guess:
         print("Too high!")
